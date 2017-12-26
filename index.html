@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>ANova Hacks 2018</title>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  </head>
+<body>
+
+<style type="text/css">
+	html,body {
+		height: 100%;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		font-family: 'Roboto', sans-serif;
+		font-size: 100px;
+	}
+	#content-body {
+		width: 100%;
+		height: 100%;
+		background: url("background.jpg");
+		background-size: 100%;
+	}
+	#overlay {
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		background: black;
+		opacity: 0.5;
+	}
+	.text-header {
+		font-weight: bold;
+		font-size: 160px;
+		opacity: 0;
+		animation: fade-in 1s ease-out;
+		animation-fill-mode: forwards;
+	}
+	.text-body {
+		position: relative;
+		top: 50%;
+		text-align: center;
+		transform: translateY(-55%);
+		color: white;
+	}
+	p {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+	}
+	.nav-item {
+		font-size: 50px;
+		cursor: pointer;
+		margin-left: 81px;
+	}
+	.text-subheader {
+		font-size: 90px;
+		color: #A5CEDA;
+		opacity: 0;
+		animation: fade-in 0.5s ease 1s;
+		animation-fill-mode: forwards;
+	}
+	#nav-spine {
+		position: relative;
+    	left: 6%;
+    	opacity: 0;
+		animation: fade-in 0.5s ease 1.5s;
+		animation-fill-mode: forwards;
+	}
+	.nav-item:hover {
+		text-decoration: underline;
+    	text-decoration-color: #A5CEDA;
+	}
+
+	/* Keyframes */
+	@keyframes fade-in {
+		to {
+			opacity: 1;
+		}
+	}
+</style>
+
+<div id="content-body">
+	<div id="overlay"></div>
+	<div class="text-body container">
+		<div class="text-header row"> <p class="text-center">ANOVA HACKS</p> </div>
+		<div class="text-subheader row"> <p class="text-center"><em>hacking to new heights</em></p></div>
+		<div id="nav-spine" class="row">
+			<div class="nav-item">Map</div>
+			<div class="nav-item">Mentor</div>
+			<div class="nav-item">Schedule</div>
+			<div class="nav-item">About</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
