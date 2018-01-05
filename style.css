@@ -11,6 +11,25 @@ html, body {
   width: 100%;
   height: 100%;
   background-size: 100%; }
+  #content-body .video-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
+  #content-body .video-container video {
+    /* Make video to at least 100% wide and tall */
+    min-width: 100%;
+    min-height: 100%;
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: auto;
+    /* Center the video */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
   #content-body .video-background {
     background: #000;
     top: 0;
@@ -56,7 +75,7 @@ html, body {
       animation-fill-mode: forwards; }
     #content-body .text-body #nav-spine {
       position: relative;
-      left: 6%;
+      left: 12%;
       opacity: 0;
       animation: fade-in 0.5s ease 1.5s;
       animation-fill-mode: forwards; }
