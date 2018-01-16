@@ -21,7 +21,7 @@ body {
 	color: white;
 }
 
-#content-body {
+.content-body {
 	background-color: #A5CEDA;
 	height: 100%;
 	padding-top: 25px;
@@ -32,7 +32,7 @@ body {
 	margin-bottom: 30px;
 }
 
-.text-container {
+#text-container {
 	width: 800px;
 	margin: 0 auto;
 }
