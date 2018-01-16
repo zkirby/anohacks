@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	/*background-color: #333333;*/
+	font-family: "Roboto";
+	position: relative;
+	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.titlecontainer {
+	text-align: center;
+	padding-top: 100px;
+	width: 100%;
+}
+#title {
+	/*position: absolute;*/
+	font-size: 200px;
+	color: white;
+}
+
+#content-body {
+	background-color: #A5CEDA;
+	height: 100%;
+	padding-top: 25px;
+	width: 900px;
+	margin: 0 auto;
+	border-radius: 30px;
+	padding-bottom: 25px;
+	margin-bottom: 30px;
+}
+
+.text-container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+h1 {
+	color: white;
+}
+
+li {
+	color: white;
+}
+
+.content {
+	color: black;
+}
